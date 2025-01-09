@@ -7,10 +7,12 @@ import pdfkit
 import time
 
 # Set your OpenAI Assistant ID here
-assistant_id = 'asst_Enter your assistant ID here'
+# assistant_id = 'asst_Enter your assistant ID here'
+assistant_id = assistant_id
 
 # Initialize the OpenAI client (ensure to set your API key in the sidebar within the app)
-client = openai
+# client = openai
+client = openai_apikey
 
 # Initialize session state variables for file IDs and chat control
 if "file_id_list" not in st.session_state:
